@@ -1,0 +1,175 @@
+
+
+body{
+margin: 0;
+padding-top: 60px;  
+background-color: #212121;
+font-weight: 999; 
+overflow-y: hidden; 
+/* background-image: url("https://globalendar.com/wp-content/uploads/2023/03/1_morado_aesthetic-scaled.jpg"); */
+
+}
+
+fieldset {
+    width: 100%;
+    text-align: center;;
+    color: #a489ec;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 4px solid #a489ec;
+    box-shadow: 0 0 20px #a489ec;, insert 0 0 10 #a489ec;
+    
+    
+}
+
+.tittle{
+    text-shadow: 0 0 12px rgba(164, 137, 236, 1)
+}
+
+
+form {
+position: absolute;
+left: 37%;
+text-align: center;
+
+}
+
+.contenido{
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 30px;
+   
+
+}
+
+.contenido input {
+    background: transparent ;
+    color: #fff
+    padding-top: 10px;
+    outline: none;
+    border: 2px solid #a489ec;
+    border-radius: 5px;
+    padding: 0 15px;
+    box-shadow: 0 0 10px #a489ec;, insert 0 0 10 #a489ec;
+    color: #a489ec;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+
+.contenido input:focus + .lbl-nombre .text-nomb{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #2ecece;
+    
+    
+}
+.contenido input[type="password"]{
+    background: none;
+    
+}
+
+/* boton */
+
+.content{
+position: relative;
+display: grid;
+justify-content: center;
+width: 100%;  
+gap: 40PX;
+
+}
+
+button{
+padding: 0.6em 1em;
+border: 4px solid #a489ec;
+transition: ease-in-out 0.3s;
+background-color: transparent;
+color: #a489ec;
+font-weight: bolder;
+font-size: 16px;
+box-shadow: 0 0 10px #a489ec;, insert 0 0 10 #a489ec;
+}
+
+button:hover {
+    transform: scale(1.2) rotate(0deg);
+    background-color: #a489ec;
+    color:white;
+}
+
+input{
+    accent-color: #a489ec;
+    border: 4px solid #a489ec;
+    margin-left: 10px;
+}
+
+.radios input[type="radio"]{
+    border: 4px solid #a489ec;
+}
+
+.radios label{
+    color: #a489ec;
+    padding: 5px 15px 5px 20px;
+    display: inline-block;
+    position:relative
+    font-size:1em
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3 ease;
+}
+
+.radios label:hover{
+    background: rgba(88, 54, 182, 0.1);
+}
+
+.radios label::before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background:none;
+    border: 3px solid #a489ec;
+    border-radius: 50%;
+    position: absolute;
+    left: 38px;
+    z-index: -1;
+    
+    
+}
+
+
+.radios input[type="radio"]:checked + label {
+    padding: 5px 15px;
+    background-color: #a489ec;
+    color:white;
+    
+}
+
+.radios input[type="radio"]:checked + label::before{
+    display: none;
+}
+
+
+input[type="date"]{
+    background: #a489ec url(icon.png);
+    color: #ffffff;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 999;
+    border: none;
+    outline: none;
+    font-family: cursive;
+}
+
+
